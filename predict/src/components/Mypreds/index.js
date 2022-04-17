@@ -161,7 +161,7 @@ const AddNewPrediction = () => {
         Object.keys(options).map((key) => options[key]),
         startValue
       )
-      .send();
+      .send({amount : 2});
   };
   return (
     <Popover>
